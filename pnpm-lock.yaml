@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@heroicons/react': ^2.0.13
+  '@tanstack/react-query': ^4.16.1
   '@types/node': 18.11.9
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
@@ -23,6 +24,7 @@ specifiers:
 
 dependencies:
   '@heroicons/react': 2.0.13_react@18.2.0
+  '@tanstack/react-query': 4.16.1_biqbaboplfbrettd7655fr4n2y
   '@types/node': 18.11.9
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
@@ -315,6 +317,28 @@ packages:
     resolution: {integrity: sha512-rEUrBSGIoSFuYxwBYtlUFMlE2CwGhmW+w9355/5oduSw8e5h2+Tj4UrAGNNgP9915++wj5vkQo0UuOBqOAq4nw==}
     dependencies:
       tslib: 2.4.1
+    dev: false
+
+  /@tanstack/query-core/4.15.1:
+    resolution: {integrity: sha512-+UfqJsNbPIVo0a9ANW0ZxtjiMfGLaaoIaL9vZeVycvmBuWywJGtSi7fgPVMCPdZQFOzMsaXaOsDtSKQD5xLRVQ==}
+    dev: false
+
+  /@tanstack/react-query/4.16.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-PDE9u49wSDykPazlCoLFevUpceLjQ0Mm8i6038HgtTEKb/aoVnUZdlUP7C392ds3Cd75+EGlHU7qpEX06R7d9Q==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@tanstack/query-core': 4.15.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
   /@types/json-schema/7.0.11:
@@ -888,7 +912,7 @@ packages:
       eslint: 8.27.0
       eslint-import-resolver-node: 0.3.6
       eslint-import-resolver-typescript: 2.7.1_dcpv4nbdr5ks2h5677xdltrk6e
-      eslint-plugin-import: 2.26.0_fjrawv2a4e2kreqduevmayjdry
+      eslint-plugin-import: 2.26.0_jnohwm7eexgw7uduhweedcbnpe
       eslint-plugin-jsx-a11y: 6.6.1_eslint@8.27.0
       eslint-plugin-react: 7.31.10_eslint@8.27.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.27.0
@@ -941,7 +965,7 @@ packages:
     dependencies:
       debug: 4.3.4
       eslint: 8.27.0
-      eslint-plugin-import: 2.26.0_fjrawv2a4e2kreqduevmayjdry
+      eslint-plugin-import: 2.26.0_jnohwm7eexgw7uduhweedcbnpe
       glob: 7.2.3
       is-glob: 4.0.3
       resolve: 1.22.1
@@ -950,7 +974,7 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-module-utils/2.7.4_c5vbubjxm3sqe7zyydgtitlaga:
+  /eslint-module-utils/2.7.4_l3rkqmr6ujglf4zsfjyz5e7jai:
     resolution: {integrity: sha512-j4GT+rqzCoRKHwURX7pddtIPGySnX9Si/cgMI5ztrcqOPtk5dDEeZ34CQVPphnqkJytlc97Vuk05Um2mJ3gEQA==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -975,12 +999,11 @@ packages:
       debug: 3.2.7
       eslint: 8.27.0
       eslint-import-resolver-node: 0.3.6
-      eslint-import-resolver-typescript: 2.7.1_dcpv4nbdr5ks2h5677xdltrk6e
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /eslint-plugin-import/2.26.0_fjrawv2a4e2kreqduevmayjdry:
+  /eslint-plugin-import/2.26.0_jnohwm7eexgw7uduhweedcbnpe:
     resolution: {integrity: sha512-hYfi3FXaM8WPLf4S1cikh/r4IxnO6zrhZbEGz2b660EJRbuxgpDS5gkCuYgGWg2xxh2rBuIr4Pvhve/7c31koA==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -997,7 +1020,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.27.0
       eslint-import-resolver-node: 0.3.6
-      eslint-module-utils: 2.7.4_c5vbubjxm3sqe7zyydgtitlaga
+      eslint-module-utils: 2.7.4_l3rkqmr6ujglf4zsfjyz5e7jai
       has: 1.0.3
       is-core-module: 2.11.0
       is-glob: 4.0.3

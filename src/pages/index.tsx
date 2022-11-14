@@ -1,7 +1,8 @@
 import React, {Fragment} from 'react';
 import Head from 'next/head';
+import {Home} from '../components/home/Home';
 
-export default function Home() {
+export default function Page() {
 	return (
 		<Fragment>
 			<Head>
